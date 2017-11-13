@@ -58,16 +58,6 @@ K P-Channel MOSFET
 F https://www.sparkfun.com/datasheets/Components/General/FQP27P06.pdf
 $ENDCMP
 #
-$CMP G6A-274P
-D Relay
-K  OMRON  G6A-274P
-$ENDCMP
-#
-$CMP INA219
-D current monitor
-F http://www.ti.com/lit/ds/symlink/ina219.pdf
-$ENDCMP
-#
 $CMP LM35
 D LM35 Precision Centigrade Temperature Sensors
 K temp, LM35
