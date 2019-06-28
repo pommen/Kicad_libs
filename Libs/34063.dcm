@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 34063
+D 1.5 A, Step-Up/Down/Inverting SwitchingRegulator
+F http://www.nomad.ee/micros/mc34063a/
+$ENDCMP
+#
+#End Doc Library

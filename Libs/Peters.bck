@@ -1,123 +1,149 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 2N2222
-D 40V Vce, 500Ic, HIGH SPEED SWITCHES, TO-18
-K Low Power Bipolar Transistors
-F http://www.st.com/content/ccc/resource/technical/document/datasheet/a0/75/d9/bd/fc/ca/42/15/CD00003223.pdf/files/CD00003223.pdf/jcr:content/translations/en.CD00003223.pdf
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
 $ENDCMP
 #
-$CMP 2N7002
-D 500V Vds, 45A Id, N-channel MOSFET
-K N-Channel Switching MOSFET
-F http://www.st.com/content/ccc/resource/technical/document/datasheet/fb/10/88/ac/4b/dc/4c/66/CD00002477.pdf/files/CD00002477.pdf/jcr:content/translations/en.CD00002477.pdf
+$CMP +4.096Vref
+D Power symbol creates a global label with name "+4.096Vref"
+K power-flag
 $ENDCMP
 #
-$CMP 74HCT541
-F C:/Users/Lillahunden/Documents/Datasheets/74HC540D_datasheet_en_20160524 (1).pdf
+$CMP 8x8-LEDArray
+D LDM-1088AS  Amber 8x8 LED matrix display
+K LDM-1088AS
 $ENDCMP
 #
-$CMP 78L05
-D Linear Regulator +5V
-K POWER REGUL
-F regulator\lm78lxx.pdf
+$CMP AD8541ARZ
+D CMOS Rail-to-Rail General-Purpose
 $ENDCMP
 #
-$CMP A03401
-D 30V P-Channel MOSFET
-K AO3401
-F C:/Users/Lillahunden/Documents/Datasheets/AO3401.pdf
+$CMP ADM1023
+D 2-channel digital thermometer
+K System Temperature Monitor
 $ENDCMP
 #
-$CMP AD822AN
-D Single-Supply, Rail-to-Rail, Low Power FET-Input Op Amp
-K opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD822.pdf
+$CMP AP2210-3.3V
+D AP2210 Series 3.3 V 300 mA Surface Mount RF ULDO Regulator - SOT-23-5
+F http://192.168.0.101/api/part_attachments/632/getFile
 $ENDCMP
 #
-$CMP AD8628
-D Zero-Drift, Single-Supply, Rail-to-Rail Operational Amplifier
-K opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8628_8629_8630.pdf
+$CMP BMP180
+D high precision digital pressure sensor.
+F http://192.168.0.102/api/part_attachments/1274/getFile
 $ENDCMP
 #
-$CMP ADS1115
-D Quad 16-Bit ADCs, Low-Power, Internal Reference, I2C
-K ADC
-F http://www.ti.com/lit/ds/symlink/ads1114.pdf
+$CMP Bluepill
+D Stm32f103 breakout
+K bluepill
 $ENDCMP
 #
-$CMP ATMEGA328PB-AU_Arduino
-D TQFP32, 32k Flash, 2kB SRAM, 1K EEPROM
-K AVR 8bit Microcontroller MegaAVR Arduino
-F http://www.atmel.com/images/atmel-42397-8-bit-avr-microcontroller-atmega328pb_datasheet.pdf
+$CMP DS92LV010A
+D DS92LV010A Bus LVDS 3.3/5.0V Single Transceiver
+K LVDS Transceiver
+F http://www.ti.com/lit/ds/symlink/ds92lv010a.pdf
 $ENDCMP
 #
-$CMP ATMEGA328PB-AU_Programmer
-D QFP32 to 28
+$CMP DW01-P
+D One Cell Lithium-ion/Polymer Battery Protection IC
+F https://cdn.sparkfun.com/assets/learn_tutorials/2/5/1/DW01-P_DataSheet_V10.pdf
 $ENDCMP
 #
-$CMP FQP27P06
-D  -27A, -60V, RDS(on) = 0.07Ω @VGS = -10 V
-K P-Channel MOSFET
-F https://www.sparkfun.com/datasheets/Components/General/FQP27P06.pdf
+$CMP EZ_PH
+D EZO-pH™ Embedded pH Circuit
+K pH
+F https://www.atlas-scientific.com/_files/_datasheets/_circuit/pH_EZO_Datasheet.pdf
 $ENDCMP
 #
-$CMP G6A-274P
-D Relay
-K  OMRON  G6A-274P
+$CMP FS8205
+D Dual N-channel Enhancement mode Mosfet
+F http://www.ic-fortune.com/upload/Download/FS8205-DS-19_EN.pdf
 $ENDCMP
 #
-$CMP INA219
-D current monitor
-F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$CMP GY-NEO6MV2
+D Arduino GY-NEO6MV2 GPS Module c/w Antenna & Flight Control EEPROM
+K GY-NEO6MV2 GPS
+F http://synacorp.my/v2/en/index.php?controller=attachment&id_attachment=630
 $ENDCMP
 #
-$CMP LM35
-D LM35 Precision Centigrade Temperature Sensors
-K temp, LM35
-F http://www.ti.com/lit/ds/symlink/lm35.pdf
+$CMP IM03GR
+F http://192.168.0.102/api/temp_uploaded_files/1677/getFile
 $ENDCMP
 #
-$CMP LM7805
-D Linear Regulator +5V
-K POWER REGUL
-F regulator\lm78xx.pdf
+$CMP IRF7306TRPBF
+D Dual P-Channel Mosfet
+F http://192.168.0.101/api/part_attachments/1126/getFile
 $ENDCMP
 #
-$CMP LM7812
-D Linear Regulator +12V
-K POWER REGUL
-F regulator\lm78xx.pdf
+$CMP IRFFR220N
+D SMPS MOSFET NCH
+F https://www.infineon.com/dgdl/irfr220npbf.pdf?fileId=5546d462533600a40153562d8a7b206f
 $ENDCMP
 #
-$CMP LT1054
-D LT1054 Switched-Capacitor Voltage Converters
-K Negative
-F http://www.ti.com/lit/ds/symlink/lt1054.pdf
+$CMP LM1086-ADJ
+F LM1086
+$ENDCMP
+#
+$CMP LM2937
+D LM2937 500-mA Low Dropout Regulator
+F http://www.ti.com/lit/ds/symlink/lm2937.pdf
+$ENDCMP
+#
+$CMP LS013B7DH03
+D 1.28 inch 128 x 128 monochrome HR-TFT transflective panel
+K TFT
+F https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS013B7DH03_Spec.pdf
+$ENDCMP
+#
+$CMP MAX6575
+D The MAX6575L/H is a low-cost, low-current temperature sensor with a single-wire digital interface
+F http://192.168.0.102/api/part_attachments/1162/getFile
 $ENDCMP
 #
 $CMP MCP4725
-D MCP4725, Single 12-bit Digital to Analog Converter, I2CInterface, SOT23-5
-K Single DAC 1ch 12bit I2C
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
+F http://192.168.0.102/api/part_attachments/1721/getFile
 $ENDCMP
 #
-$CMP STW45NM50
-D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
-K N-Channel MOSFET Logic Level
-F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+$CMP Micro_MATE-N-LOK_3-794633-4_4PinMolex
+F http://192.168.0.102/api/part_attachments/293/getFile
 $ENDCMP
 #
-$CMP UA741
-D  General-Purpose Operational Amplifiers
-K  OpAmp
-F http://www.ti.com/lit/ds/symlink/ua741.pdf
+$CMP SHT21
+F http://192.168.0.102/api/part_attachments/1295/getFile
 $ENDCMP
 #
-$CMP lm2937(7805)
-D Linear Regulator +5V
-K POWER REGUL
-F regulator\lm78xx.pdf
+$CMP SI4466
+F https://www.vishay.com/docs/71820/71820.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G14
+K http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf
+$ENDCMP
+#
+$CMP SN74LVC2G14
+K http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf
+$ENDCMP
+#
+$CMP Si4435
+D P-Channel 30-V (D-S) MOSFET
+F https://www.vishay.com/docs/72123/72123.pdf
+$ENDCMP
+#
+$CMP Si4804
+F http://192.168.0.102/api/part_attachments/1618/getFile
+$ENDCMP
+#
+$CMP TD15-1223N
+D DC/DC 9-18V VIN +/- 15V out
+$ENDCMP
+#
+$CMP THM10-2422WI
+F https://www.tracopower.com/products/thm10wi.pdf
+$ENDCMP
+#
+$CMP ZHCS1006TA
+F http://192.168.0.101/api/part_attachments/635/getFile
 $ENDCMP
 #
 #End Doc Library
